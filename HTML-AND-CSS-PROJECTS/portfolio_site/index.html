@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allie's Portfolio</title>
+    <!-- RETRO FONT -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/retroscape" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- BODY -->
+
+<body class="background">
+
+    <!-- BACKGROUND IMG-->
+    <div id="home">
+        <div class="img_box">
+            
+            <img id="bg_img" src="images/code.jpg" alt="typed code">
+        </div>
+    </div>
+    <div class="img_text">
+        <h1 class="title">Allie's Portfolio</h1>
+    </div>
+
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="row" id="about">
+        <!-- LEFT COLUMN -->
+        <div class="col2">
+            <img src="images/computer.jpg" alt="retro computer and game system on desk">
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="col1">
+            <h1>About</h1>
+            <p>
+                Hi there, I'm Allie, a software and video game developer.
+                <br>
+                I studied at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>.
+                <br>
+                Feel free to reach out to me for any queries or if you'd like to collaborate on a project!
+            </p>
+        </div>
+    </div>
+
+    <!-- GITHUB SECTION -->
+    <div class="row" id="GitHub">
+        <!-- LEFT COLUMN -->
+        <div class="col1">
+            <h1>GitHub</h1>
+            <p>
+                My various projects can be found on my GitHub profile here:
+                <br>
+            <p class=center><a href="https://github.com/allie-schultz" target="_blank">Allie's Projects</a>
+            </p>
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="col2">
+            <a href="https://github.com/allie-schultz" target="_blank"><img src="images/github.png"
+                    alt="purple github logo"></a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="row" id="contact">
+        <!-- LEFT COLUMN -->
+        <div class="col2 col_tall">
+            <img src="images/phone.jpg" alt="pink wall phone">
+        </div>
+        <!-- RIGHT COLUMN -->
+        <div class="col1 col_tall">
+            <h1>Contact</h1>
+            <form action="" method="POST">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter name here">
+                <label>Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter email here">
+                <label>Message:</label>
+                <input type="text" id="message" name="message" placeholder="Enter message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+        <p class="center">&copy; Allie Schultz 2025</p>
+        </p>
+    </footer>
+</body>
+
+</html>
